@@ -31,7 +31,7 @@ export default function initSofiaTooltip($) {
 
     const $tooltip = $('<div id="sofia-tooltip" class="pointer-events-none fixed z-50 text-sm rounded bg-black text-white px-2 py-1 opacity-0 transition-all transform scale-95 shadow-xl max-w-xs">\n' +
         '<div class="tooltip-content"></div>\n' +
-        '<div class="tooltip-arrow absolute w-3 h-3 bg-gray-800 rotate-45"></div>\n' +
+        '<div class="tooltip-arrow absolute w-3 h-3 bg-black rotate-45"></div>\n' +
         '</div>').appendTo('body');
 
     let hideTimeout;
