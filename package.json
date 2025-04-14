@@ -1,6 +1,6 @@
 {
   "name": "sofia-tooltips",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Elegant jQuery & Tailwind 4 tooltip library made by Sofia and the Monarch",
   "main": "index.js",
   "module": "index.js",

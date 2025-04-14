@@ -1,5 +1,5 @@
 /**
- * Sofia Tooltip Library v1.0.1
+ * Sofia Tooltip Library
  * Lightweight, elegant, and reusable tooltip system for jQuery + Tailwind 4
  * Now with positioning, arrow, configurable options, click trigger, touch support, HTML content, max-width, and attribute-based control!
  *
