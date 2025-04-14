@@ -62,6 +62,16 @@ initSofiaTooltip($);
 
 ---
 
+## 🎨 Styling
+
+Sofia Tooltips uses Tailwind CSS classes for elegant, pre-defined styling.
+
+If you're using Tailwind, everything will look beautiful out of the box!
+
+If you're not using Tailwind, the tooltip will still function perfectly — you can easily add your own styles targeting the `#sofia-tooltip` element and its children.
+
+---
+
 ## 💡 Example
 
 ```html

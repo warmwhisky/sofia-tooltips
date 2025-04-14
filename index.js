@@ -29,7 +29,7 @@ export default function initSofiaTooltip($) {
         maxWidth: '240px',
     };
 
-    const $tooltip = $('<div id="sofia-tooltip" class="pointer-events-none fixed z-50 text-sm rounded bg-gray-800 text-white px-2 py-1 opacity-0 transition-all transform scale-95 shadow-xl max-w-xs">\n' +
+    const $tooltip = $('<div id="sofia-tooltip" class="pointer-events-none fixed z-50 text-sm rounded bg-black text-white px-2 py-1 opacity-0 transition-all transform scale-95 shadow-xl max-w-xs">\n' +
         '<div class="tooltip-content"></div>\n' +
         '<div class="tooltip-arrow absolute w-3 h-3 bg-gray-800 rotate-45"></div>\n' +
         '</div>').appendTo('body');
@@ -82,26 +82,34 @@ export default function initSofiaTooltip($) {
 
         switch (position) {
             case 'bottom':
+                $arrow.css({ margin: 0, marginLeft: 0, marginRight: 0 });
                 top = offset.top + targetHeight + 8;
                 left = offset.left + (targetWidth / 2) - (tooltipWidth / 2);
-                $arrow.css({ top: '-6px', left: '50%', transform: 'translateX(-50%) rotate(45deg)' });
+                $arrow.css({ top: '0px', left: '50%', transform: 'translateX(-50%) rotate(45deg)' });
                 break;
+
             case 'left':
+                $arrow.css({ margin: 0, marginLeft: 0, marginRight: 0 });
                 top = offset.top + (targetHeight / 2) - (tooltipHeight / 2);
                 left = offset.left - tooltipWidth - 8;
-                $arrow.css({ top: '50%', left: '100%', transform: 'translateY(-50%) rotate(45deg)' });
+                $arrow.css({ top: '50%', left: '100%', transform: 'translateY(-50%) rotate(45deg)', marginLeft: '-12px' });
                 break;
+
             case 'right':
+                $arrow.css({ margin: 0, marginLeft: 0, marginRight: 0 });
                 top = offset.top + (targetHeight / 2) - (tooltipHeight / 2);
                 left = offset.left + targetWidth + 8;
-                $arrow.css({ top: '50%', left: '-6px', transform: 'translateY(-50%) rotate(45deg)' });
+                $arrow.css({ top: '50%', left: '0', transform: 'translateY(-50%) rotate(45deg)', marginLeft: '-12px' });
                 break;
-            default:
+
+            default: // 'top'
+                $arrow.css({ margin: 0, marginLeft: 0, marginRight: 0 });
                 top = offset.top - tooltipHeight - 8;
                 left = offset.left + (targetWidth / 2) - (tooltipWidth / 2);
                 $arrow.css({ top: '100%', left: '50%', transform: 'translateX(-50%) rotate(45deg)' });
                 break;
         }
+
 
         $tooltip.css({ top: `${top}px`, left: `${left}px` });
     }
