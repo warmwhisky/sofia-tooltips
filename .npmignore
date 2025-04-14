@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+test/
+src/
+.gitignore
+.vscode/
+.DS_Store
+README.md~
+*.log
+.env

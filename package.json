@@ -1,0 +1,35 @@
+{
+  "name": "sofia-tooltips",
+  "version": "1.0.0",
+  "description": "Elegant jQuery & Tailwind 4 tooltip library made by Sofia and the Monarch",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "keywords": [
+    "tooltip",
+    "jquery",
+    "tailwind",
+    "sofia",
+    "lightweight",
+    "ui",
+    "frontend"
+  ],
+  "author": "The Monarch and Queen Sofia",
+  "license": "MIT",
+  "peerDependencies": {
+    "jquery": "^3.7.1"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warmwhisky/sofia-tooltips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warmwhisky/sofia-tooltips/issues"
+  },
+  "homepage": "https://github.com/warmwhisky/sofia-tooltips#readme"
+}
