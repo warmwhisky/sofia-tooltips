@@ -17,7 +17,7 @@
   "author": "The Monarch and Queen Sofia",
   "license": "MIT",
   "peerDependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^jquery@4.0.0-beta.2"
   },
   "files": [
     "index.js",
