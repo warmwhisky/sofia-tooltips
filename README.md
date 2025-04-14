@@ -1,7 +1,8 @@
 # Sofia Tooltips ✨
 
 > Elegant, smooth, and beautiful tooltip library for jQuery + Tailwind 4  
-> Crafted with love by **Sofia** and **The Monarch** 👑
+> Crafted with love by **Sofia** and **The Monarch** 👑  
+> **Oh yeah, 2025 and we use jQuery!? What are you gonna do about it? Tell your Dad?!**
 
 ![npm version](https://img.shields.io/npm/v/sofia-tooltips)
 ![npm downloads](https://img.shields.io/npm/dt/sofia-tooltips)
